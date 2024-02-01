@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+div#list{
+
+    height:fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+
+}
+
+div#list div#menu{
+    
+    width:65%
+}
+
+div#list div#menu span{
+    margin:2%;
+    color:rgb(29, 29, 78);
+    font-family: 'Poppins';
+    letter-spacing: 0.5px;
+    font-size:15px;
+    font-weight: bold;
+    
+}
+
+div#list span.amount{
+    color:red;
+    margin-right: 5%;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: smaller;
+    
+}
+
+
+
+@media only screen and (orientation:portrait){
+
+    div#list div#menu span{
+        
+   
+        font-size:28px;
+        font-weight: 900;
+        
+        
+    }
+
+    div#list span.amount{
+       
+        font-weight: 25px;
+        font-size: 20px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

@@ -1,0 +1,48 @@
+div#topbar{
+    box-shadow: 0 1px  3px rgb(46, 46, 46);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;
+    position:fixed;
+    width:100%;
+    background-color: white;
+
+    
+}
+
+div#topbar img{
+    height: 60%;
+}
+div#topbar span.user{
+    font-family: 'Poppins';
+    font-weight:bolder;
+    color:orangered;
+    flex-grow: 1;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2%;
+}
+
+
+
+
+@media only screen and (orientation:portrait) {
+    div#topbar{
+        height: 80px
+    }
+    
+div#topbar img{
+    
+    height:50px;
+}
+
+div#topbar span.user{
+    margin-right: 3%;
+    font-size: 20px;
+}
+
+
+}

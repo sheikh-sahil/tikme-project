@@ -1,0 +1,27 @@
+
+div#parentscreen{
+    width:100%;
+}
+
+
+div#parentscreen div#screenbox{
+   padding-top: 10%;
+    display: flex;
+    height: 100vh;
+
+}
+
+
+
+
+@media only screen and (orientation:portrait){
+
+    div#parentscreen div#screenbox{
+               flex-direction: column;
+               height: 50vh;
+        
+        }
+
+       
+
+}

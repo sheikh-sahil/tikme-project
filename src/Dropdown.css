@@ -1,0 +1,36 @@
+div#drop{
+    width:99%;
+    height:fit-content;  
+    
+}
+
+div#drop div.Text{
+    width:100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 1%;
+
+}
+
+div#drop div.Text span{
+    margin-left:2%;
+    margin-top:1%
+}
+
+
+@media only screen and (orientation:portrait){
+    div#drop{ padding:1em;}
+    div#drop div.Text{
+        font-size: 2em;
+        
+     
+    }
+
+
+  
+    
+}

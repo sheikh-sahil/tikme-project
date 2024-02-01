@@ -1,0 +1,37 @@
+div#footer{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    background-color: #3e4152;
+    padding: 0px;
+    margin-left: 2%;
+    
+}
+
+div#footer span{
+    padding:1%;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 800;
+    color:white;
+}
+
+
+@media only screen and (orientation:portrait){
+
+    div#footer{
+     position:relative;
+     top:100vh;  
+    }
+    div#footer span{
+        padding:1em;
+        font-family: 'Poppins';
+        font-size:2vh;
+        font-weight: 800;
+        color:white;
+        margin-left: 1%;
+    }
+
+}

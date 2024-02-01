@@ -1,0 +1,152 @@
+
+
+div#ParentBox{ box-shadow: 0px 0px 2px rgb(156, 156, 156); width: 65%; height:93.5vh; margin-top:1%;
+    border-radius: 12px;
+  }
+  
+   div#ParentBox div#Box{ width: 100%; height:95%; box-shadow: 0px 0px  2px #807f7f; margin-left: 0%;
+      border-radius: 12px;
+      background-color: #fff;  
+    }
+  
+    div#Box div.Header{  background-color: #3e4152; border-top-right-radius:12px ; border-top-left-radius:12px ;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+     
+    }
+  
+  
+    div.Header div#Heading { width:100%;   display: flex; align-items: center; justify-content:center; }
+  
+  
+    div.Header div#Heading p {  font-size:20px; font-weight: 600; color:#fff; font-family:'Poppins';  }
+  
+    div#Heading svg { font-size:19px; margin-left: 1%; color:#fff;}
+  
+    div#Box div#container {border-bottom:1px dotted gray;height: 12%; cursor: pointer;}
+  
+    div#Box div#container2 {border-bottom:1px dotted gray;height: 12%;}
+  
+    div#Box div#container3 {border-bottom:1px dotted gray;height: fit-content;
+    }
+  
+    div#Box div#container4 { border-bottom:1px dotted gray;height: 23%; height: fit-content;}
+  
+   
+  
+  
+  
+    div#Box div#paymentbar{border-bottom: 1px solid rgb(219, 217, 217); height:13%; margin-top: 2%;}
+  
+    div#Box div#paymentbar div#title{ text-align:center; margin-top:0%; font-size:15px; font-weight:900; font-family: 'Poppins';
+                                      color:#272b41;background-color: rgb(248, 223, 175);}
+  
+  
+  
+    div#paymentbar div#check{ padding: 0%; padding:1%; display: flex; justify-content: space-evenly;
+                               background-color: rgb(248, 223, 175); }
+  
+  
+    div#paymentbar div#check span.act{font-family: 'Poppins';font-size: small;font-weight: bold;}
+  
+    div#paymentbar div#check span{ font-family: 'Poppins'; font-size: small; font-weight: bold; }
+  
+    input[type="radio"]{
+      accent-color: green;
+    }
+  
+  
+    div#paymentbar div#msg{ text-align: center; font-size: 10px; font-weight: bolder; font-family: 'Poppins';
+                            color:rgb(71, 71, 206); }
+  
+  
+   div#paymentbar select {width:12%; margin-left: 70%; position: relative; top:-8em}
+  
+  
+  
+    div#ParentBox div#Box button{
+      width:100%;
+      height: 50px;
+      border:0px;
+      font-size: large;
+      font-weight: bold;
+      font-family: 'Poppins';
+      color: #fff;
+      background-color: #12b55c;
+      border-bottom-left-radius: 10px;
+      border-bottom-Right-radius: 10px;
+    }
+  
+    div#Box div#pop{
+      box-shadow:1px 1px 2px 1px gray; 
+      width:60%;
+      margin-left:7%;
+      background-color: #fff;
+      position: relative;
+      top:-50%;
+      
+  
+    }
+  
+  
+  
+    @media only screen and (orientation:portrait){
+      div#Heading svg { font-size:2vh;}
+      div.Header{ width:100%;}
+      div.Header div#Heading p { font-size:2vh;}
+      div#ParentBox{
+         box-shadow: 0px 0px 0px rgb(156, 156, 156);
+          width: 100%;
+           height:100vh;
+            margin-top:7%;
+            margin-left: 2%;
+    
+      }
+  
+      
+   div#ParentBox div#Box{
+     width: 100%;
+      height:95%; 
+      box-shadow: 0px 0px 0px;
+         
+  }
+  
+  div#ParentBox div#Box button{
+    width:100%;
+    height: 10%;
+    border:0px;
+    font-size: 2vh;
+    padding:0.5em;
+  }
+  
+  div#Box div#paymentbar{
+     height:7%;
+      margin-top: 2%;
+    }
+  
+  
+  
+    div#Box div#paymentbar div#title{
+       
+       font-size:2vh;
+      }
+  
+      div#paymentbar div#check span.act{
+        font-size:20px;
+        font-weight: 900;
+      }
+  
+  
+      div#paymentbar div#check span{
+         font-size: 20px;
+         font-weight: 900; 
+        }
+  
+        div#paymentbar select {position: relative; top:-12em; border: 1px solid black; }
+  
+
+    }
+   
+  
+    

@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+div#locationbox{
+    
+    width: 80%;
+    height: 60%;
+    margin-top: 2%;
+}
+
+
+
+div#locationbox div#address{
+    box-shadow: 0px 0px 2px rgb(108, 109, 108);
+    height: 50%;
+    margin:2%;
+    display: flex;
+    border-radius: 10px;
+}
+
+div#address div#cmpicon{
+    
+    width: 20%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 3%;
+
+    
+}
+
+div#cmpicon img{width:80%; height: 90%;}
+
+div#address div#add{
+    
+    width:70%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+div#address div#add span.hed{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 16px;
+    color: #343a58;
+    
+}
+
+
+
+
+div#add button{
+    width:30%;
+    height: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #12b55c;
+    font-weight: bold;
+    border: 1px solid #46e28c;
+    background-color: white;
+    border-radius: 5px; 
+    font-family: 'Poppins';
+}
+
+svg{color:orangered; margin: 1%; margin-left: 2%; font-size: small;}
+
+
+div#address div#add2{
+    
+    height: 17%;
+    display: flex;
+    margin-top: 1%;
+}
+
+div#address div#add2 span{
+    font-family: 'Poppins';
+    font-size: 12px;
+    color:rgb(33, 33, 95);
+    font-weight: 900;
+    
+}
+
+
+
+div#locationbox div#pickup{
+    box-shadow: 0px 0px 2px rgb(108, 109, 108);
+    height: 25%;
+    margin:3%;
+    border-radius: 10px;
+
+}
+
+div#pickup div#txt{
+    
+    width:90%;
+    height:35%;
+    display: flex;
+    
+}
+
+div#pickup div#txt div svg{
+    font-size:30px;
+    margin-left: 10px;
+    color:orangered;
+    
+    
+}
+
+div#pickup div#txt span{
+    margin-left:2%;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size:larger;
+    color: orangered;
+
+}
+
+div#txt svg{color:rgb(124, 123, 123); margin-left: 80%; margin-top: 6%; font-size: large;}
+
+
+div#pickup div#txt2{
+    width:80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+div#txt2 span{font-size:x-small; color:rgb(34, 34, 90); font-family: 'Poppins'; font-weight:900; }
+
+
+
+
+@media only screen and (orientation:portrait){
+
+
+    div#locationbox{
+        
+        width: 100%;
+        height: 100vh;
+     
+    }
+
+    div#locationbox div#address{
+        width:100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fcf6f0;
+        box-shadow: 0px 0px 0px  white;
+        
+    }
+
+    div#address div#add{
+    
+        width:70%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    div#address div#add span.hed{   
+        
+        font-size: 90px;
+        letter-spacing: 1px;
+        font-size: 40px;
+        font-weight:900;
+
+        
+        
+            
+    }
+
+
+    div#address div#add2 span{
+       
+        font-size: 15px;    
+    }
+
+    div#address div#cmpicon{
+        
+        height: 30%;
+    
+    
+    }
+
+    div#address div#cmpicon img{
+        height: 10em;
+        width: 100%;
+    
+    }
+
+    div#add button{
+        width:30%;
+        height: 5em;
+        font-size: 20px;
+        
+    }
+    div#address div#add{
+    
+        width:100%;    
+    }
+
+    div#address div#add2 span{
+    
+        font-size: 25px;
+        
+    }
+
+    
+    div#address div#add2 svg{
+    
+        font-size: 25px;
+        
+    }
+
+
+
+
+    div#locationbox div#pickup{
+        width: 100%;
+        height: 30%;
+        margin:3%;
+        margin-top: 4%;
+
+    }
+
+    div#pickup div#txt span{
+        margin-left:3%;
+        margin-top: 1%; 
+        font-weight: bold;
+        font-size:40px;
+    
+    }
+
+    div#pickup div#txt div svg{
+        font-size:45px;
+        margin-left: 20px;
+        margin-top: 10px;
+           
+    }
+
+    div#txt2 span{
+        font-size:28px;
+        font-weight:900;
+     }
+
+     div#txt svg{color:black; margin-left: 80%; margin-top: 12%; }
+
+}
+
+
+
+
+
+
